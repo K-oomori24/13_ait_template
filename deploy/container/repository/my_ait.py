@@ -150,7 +150,7 @@ if not is_ait_launch:
 ## sample ##
      from ait_sdk.common.files.ait_manifest_generator import AITManifestGenerator
      manifest_genenerator = AITManifestGenerator(current_dir)
-     manifest_genenerator.set_ait_name('dev_ait_template_for_aithub')
+     manifest_genenerator.set_ait_name('dev_ait_template_for_aithub_0.2')
      manifest_genenerator.set_ait_description('AIT template (docker image regist to remote)')
      manifest_genenerator.set_ait_source_repository('https://github.com/aistairc/ait-template')
      manifest_genenerator.set_ait_version('0.1')

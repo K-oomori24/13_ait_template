@@ -1,5 +1,5 @@
 {
-  "name": "dev_ait_template_for_aithub",
+  "name": "dev_ait_template_for_aithub_0.2",
   "description": "AIT template (docker image regist to remote)",
   "source_repository": "https://github.com/aistairc/ait-template",
   "version": "0.1",
