@@ -38,7 +38,7 @@
 
 # [uneditable]
 
-# In[ ]:
+# In[1]:
 
 
 # Determine whether to start AIT or jupyter by startup argument
@@ -50,7 +50,7 @@ is_ait_launch = (len(sys.argv) == 2)
 
 # [uneditable]
 
-# In[ ]:
+# In[2]:
 
 
 if not is_ait_launch:
@@ -75,7 +75,7 @@ if not is_ait_launch:
 
 # #### #3-1 [uneditable]
 
-# In[ ]:
+# In[3]:
 
 
 if not is_ait_launch:
@@ -85,7 +85,7 @@ if not is_ait_launch:
 
 # #### #3-2 [required]
 
-# In[ ]:
+# In[4]:
 
 
 if not is_ait_launch:
@@ -96,7 +96,7 @@ if not is_ait_launch:
 
 # #### #3-3 [uneditable]
 
-# In[ ]:
+# In[5]:
 
 
 if not is_ait_launch:
@@ -110,7 +110,7 @@ if not is_ait_launch:
 
 # #### #4-1 [required]
 
-# In[ ]:
+# In[6]:
 
 
 # import if you need modules cell
@@ -124,7 +124,7 @@ from pathlib import Path
 
 # #### #4-2 [uneditable]
 
-# In[ ]:
+# In[7]:
 
 
 # must use modules
@@ -143,7 +143,7 @@ from ait_sdk.develop.annotation import measures, resources, downloads, ait_main 
 
 # [required]
 
-# In[ ]:
+# In[8]:
 
 
 if not is_ait_launch:
@@ -183,7 +183,7 @@ if not is_ait_launch:
 
 # [required]
 
-# In[ ]:
+# In[9]:
 
 
 if not is_ait_launch:
@@ -201,7 +201,7 @@ if not is_ait_launch:
 
 # [uneditable]
 
-# In[ ]:
+# In[10]:
 
 
 logger = get_logger()
@@ -231,7 +231,7 @@ ait_manifest.read_json(path_helper.get_manifest_file_path())
 
 # [required]
 
-# In[ ]:
+# In[11]:
 
 
 ## sample ##
@@ -241,7 +241,7 @@ def calc_mean(iris_data, col_name):
     return iris_data[col_name].mean()
 
 
-# In[ ]:
+# In[12]:
 
 
 ## sample ##
@@ -252,7 +252,7 @@ def save_pair_plot(iris_data, file_path: str=None) -> str:
     plt.savefig(file_path)
 
 
-# In[ ]:
+# In[13]:
 
 
 ## sample ##
@@ -266,7 +266,7 @@ def move_log(file_path: str=None) -> str:
 
 # [required]
 
-# In[ ]:
+# In[14]:
 
 
 @log(logger)
@@ -286,7 +286,7 @@ def main() -> None:
 
 # [uneditable]
 
-# In[ ]:
+# In[15]:
 
 
 if __name__ == '__main__':
@@ -297,7 +297,7 @@ if __name__ == '__main__':
 
 # [required]
 
-# In[ ]:
+# In[16]:
 
 
 ## sample ##
@@ -309,7 +309,7 @@ ait_creation_year='2020'
 
 # [uneditable] 
 
-# In[ ]:
+# In[17]:
 
 
 if not is_ait_launch:
