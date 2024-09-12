@@ -38,7 +38,7 @@
 
 # [uneditable]
 
-# In[1]:
+# In[18]:
 
 
 # Determine whether to start AIT or jupyter by startup argument
@@ -50,7 +50,7 @@ is_ait_launch = (len(sys.argv) == 2)
 
 # [uneditable]
 
-# In[2]:
+# In[19]:
 
 
 if not is_ait_launch:
@@ -75,7 +75,7 @@ if not is_ait_launch:
 
 # #### #3-1 [uneditable]
 
-# In[3]:
+# In[20]:
 
 
 if not is_ait_launch:
@@ -85,7 +85,7 @@ if not is_ait_launch:
 
 # #### #3-2 [required]
 
-# In[4]:
+# In[21]:
 
 
 if not is_ait_launch:
@@ -96,7 +96,7 @@ if not is_ait_launch:
 
 # #### #3-3 [uneditable]
 
-# In[5]:
+# In[22]:
 
 
 if not is_ait_launch:
@@ -110,7 +110,7 @@ if not is_ait_launch:
 
 # #### #4-1 [required]
 
-# In[6]:
+# In[23]:
 
 
 # import if you need modules cell
@@ -124,7 +124,7 @@ from pathlib import Path
 
 # #### #4-2 [uneditable]
 
-# In[7]:
+# In[24]:
 
 
 # must use modules
@@ -143,7 +143,7 @@ from ait_sdk.develop.annotation import measures, resources, downloads, ait_main 
 
 # [required]
 
-# In[8]:
+# In[25]:
 
 
 if not is_ait_launch:
@@ -151,7 +151,7 @@ if not is_ait_launch:
      from ait_sdk.common.files.ait_manifest_generator import AITManifestGenerator
      manifest_genenerator = AITManifestGenerator(current_dir)
      manifest_genenerator.set_ait_name('dev_ait_template_for_aithub_0.2')
-     manifest_genenerator.set_ait_description('AIT template (docker image regist to remote)')
+     manifest_genenerator.set_ait_description('AIT TEST_22')
      manifest_genenerator.set_ait_source_repository('https://github.com/aistairc/ait-template')
      manifest_genenerator.set_ait_version('0.1')
      manifest_genenerator.add_ait_licenses('Apache License Version 2.0')
@@ -183,7 +183,7 @@ if not is_ait_launch:
 
 # [required]
 
-# In[9]:
+# In[26]:
 
 
 if not is_ait_launch:
@@ -201,7 +201,7 @@ if not is_ait_launch:
 
 # [uneditable]
 
-# In[10]:
+# In[27]:
 
 
 logger = get_logger()
@@ -231,7 +231,7 @@ ait_manifest.read_json(path_helper.get_manifest_file_path())
 
 # [required]
 
-# In[11]:
+# In[28]:
 
 
 ## sample ##
@@ -241,7 +241,7 @@ def calc_mean(iris_data, col_name):
     return iris_data[col_name].mean()
 
 
-# In[12]:
+# In[29]:
 
 
 ## sample ##
@@ -252,7 +252,7 @@ def save_pair_plot(iris_data, file_path: str=None) -> str:
     plt.savefig(file_path)
 
 
-# In[13]:
+# In[30]:
 
 
 ## sample ##
@@ -266,7 +266,7 @@ def move_log(file_path: str=None) -> str:
 
 # [required]
 
-# In[14]:
+# In[31]:
 
 
 @log(logger)
@@ -286,7 +286,7 @@ def main() -> None:
 
 # [uneditable]
 
-# In[15]:
+# In[32]:
 
 
 if __name__ == '__main__':
@@ -297,7 +297,7 @@ if __name__ == '__main__':
 
 # [required]
 
-# In[16]:
+# In[33]:
 
 
 ## sample ##
@@ -309,7 +309,7 @@ ait_creation_year='2020'
 
 # [uneditable] 
 
-# In[17]:
+# In[34]:
 
 
 if not is_ait_launch:
